@@ -34,8 +34,14 @@
   <!-- END INSTRUCTIONS -->
 
   <form onSubmit="alert('got it')">
-    <input type="text" name="name" placeholder="Name" />
-    <input type="submit" value="Submit" />
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <select required>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Decline to State</option>
+    </select>
+    <input type="submit" value="Signup" />
   </form>
 </body>
 
